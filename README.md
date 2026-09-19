@@ -1,8 +1,8 @@
 # agent-tools
 
 Lightweight, plain-CLI replacements for heavy MCP servers — one folder per external
-service, each with its own usage guide, a short capability/cost summary, and the
-benchmark data behind those numbers.
+service, each with its own usage guide and a short capability/cost summary. The
+benchmark behind those numbers lives under `methodology/`, not in the tool itself.
 
 ## Why this exists
 
@@ -21,19 +21,22 @@ actually use.
 
 ## Layout
 
-Each tool folder is self-contained and answers three questions:
+Each tool folder is self-contained and answers two questions:
 
 - **Should I use this?** → `<tool>/CAPABILITIES.md` — one short, plain-English page:
   what it does, what it doesn't cover, and the token cost per capability.
 - **How do I use it?** → `<tool>/README.md` — the actual commands.
-- **Why should I trust the numbers?** → `<tool>/BENCHMARK.md` (+ its data file) — the
-  real MCP-vs-CLI measurement behind the CAPABILITIES.md figures.
+
+The measurement behind a tool's numbers isn't part of the tool — it lives as a
+worked example under `methodology/`, since it's something you run once to produce
+the CAPABILITIES.md figures, not something the tool itself needs at use time.
 
 Top level:
 
 - `github/` — GitHub via `gh` + `git`: issues, file/code browsing, branches,
   pushing changes, PRs
-- `methodology/` — how to measure and write up the next tool
+- `methodology/` — how to measure and write up the next tool, plus each tool's
+  worked benchmark example (e.g. `methodology/github-example/`)
 - `REQUIREMENTS.md` — what needs to be installed/authenticated, per tool
 
 ## How to use this with a coding agent

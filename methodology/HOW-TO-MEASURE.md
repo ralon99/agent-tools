@@ -36,5 +36,6 @@ repeated for the next MCP server worth replacing.
    `CAPABILITIES.md` summary, and the practical `README.md`. Note caveats: heuristic
    accuracy, sample size, what wasn't covered.
 
-See `github/` for a worked example of all of the above, including the raw benchmark
-data script (`github/benchmark.py`) and schema evidence (`github/schemas.json`).
+See `github-example/` for a worked example of all of the above: the raw benchmark
+data script (`benchmark.py`), schema evidence (`schemas.json`), and the write-up
+(`BENCHMARK.md`) that fed `../github/CAPABILITIES.md`.

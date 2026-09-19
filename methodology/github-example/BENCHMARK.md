@@ -11,8 +11,8 @@ Test repo: throwaway private repo, created for this benchmark and deleted afterw
 - Per-call cost = request (tool-call args, or shell command) + response (tool
   result, or command stdout) character length, summed per operation.
 - Both sides ran the same 11 real operations against the same throwaway repo
-  (`schemas.json`, `README.md`, `benchmark.py` in this folder have the exact
-  schemas/commands/outputs used).
+  (`schemas.json` and `benchmark.py` in this folder have the exact
+  schemas/commands/outputs used; the CLI side's commands are in `../../github/README.md`).
 - Scope: only the tools/commands actually used — issues, repo browsing/file
   content, and creating/pushing changes. PR review workflow, teams, releases, etc.
   were excluded from the MCP side since they aren't used.

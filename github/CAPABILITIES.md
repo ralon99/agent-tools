@@ -31,6 +31,6 @@ inline diff comments, teams, releases, milestones, sub-issues.
 
 **~88% fewer tokens**, mostly from not loading the MCP's schemas at all.
 
-Full methodology and caveats: [`BENCHMARK.md`](BENCHMARK.md).
+Full methodology and caveats: [`methodology/github-example/BENCHMARK.md`](../methodology/github-example/BENCHMARK.md).
 Setup: [`../REQUIREMENTS.md`](../REQUIREMENTS.md#github).
 How to actually use it: [`README.md`](README.md).
