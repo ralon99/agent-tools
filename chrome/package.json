@@ -1,0 +1,10 @@
+{
+	"name": "chrome-tools",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "Minimal CDP tools for agent-assisted browser debugging. Adapted from badlogic/pi-skills/browser-tools (MIT) — see THIRD_PARTY_NOTICES.md.",
+	"license": "MIT",
+	"dependencies": {
+		"puppeteer-core": "24.31.0"
+	}
+}
