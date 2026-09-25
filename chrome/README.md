@@ -42,6 +42,12 @@ have opened/closed since your last listing):
   chrome-tabs.js                # list, active tab marked with *
   chrome-tabs.js switch 1       # make tab 1 the active tab for every other script
 
+Pick (the user points at things in Chrome; blocks until they press Enter/Esc,
+page clicks are swallowed while picking — run it in the background and ask the
+user to pick):
+  chrome-pick.js "Pick the broken button"   # prints tag, (x, y), selector, text, rect per pick
+On canvas apps the selector is just the canvas; use the (x, y) with chrome-click.js.
+
 ## Canvas apps have no usable DOM
 
 If `chrome-eval.js` queries against `document.querySelectorAll(...)` come back
