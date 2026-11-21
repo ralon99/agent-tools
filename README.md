@@ -35,9 +35,9 @@ Top level:
 
 - `github/` — GitHub via `gh` + `git`: issues, file/code browsing, branches,
   pushing changes, PRs
-- `chrome/` — Chrome via CDP (puppeteer-core): navigate, screenshot,
-  coordinate click/type/key (for canvas apps with no real DOM), console/network
-  capture, multiple tabs
+- `chrome/` — Chrome via raw CDP in one zero-dependency script: navigate, snapshot,
+  screenshot, click/type/key (selector or coordinates, for canvas apps),
+  console/network capture, tabs, dialogs, user element picking
 - `methodology/` — how to measure and write up the next tool, plus each tool's
   worked benchmark example (e.g. `methodology/github-example/`)
 - `REQUIREMENTS.md` — what needs to be installed/authenticated, per tool

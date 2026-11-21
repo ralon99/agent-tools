@@ -14,7 +14,6 @@
 
 ## chrome
 
-- Node.js (v20.11+, for `import.meta.dirname`)
+- Node.js 22+ (built-in WebSocket and fetch; no npm install)
 - Google Chrome installed (Windows/macOS: standard install location; Linux:
   `google-chrome`/`chromium` on `PATH`)
-- `npm install` once in `chrome/`

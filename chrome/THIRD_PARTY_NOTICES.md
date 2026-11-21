@@ -1,10 +1,9 @@
 # Third-party notices
 
-The connect/launch pattern in `chrome-start.js`, `chrome-nav.js`,
-`chrome-screenshot.js`, and `chrome-eval.js` is adapted from
+The `pick` subcommand and the `start --profile` profile-copy logic in `pw.mjs`
+are adapted from
 [`badlogic/pi-skills/browser-tools`](https://github.com/badlogic/pi-skills/tree/main/browser-tools)
-(`browser-start.js`, `browser-nav.js`, `browser-screenshot.js`,
-`browser-eval.js`), under the following license:
+(`browser-pick.js`, `browser-start.js`), under the following license:
 
 ```
 MIT License
@@ -30,8 +29,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-`chrome-click.js`, `chrome-type.js`, `chrome-key.js`, `chrome-scroll.js`,
-`chrome-wait.js`, `chrome-console.js`, `chrome-network.js`, `chrome-logger.js`,
-`chrome-tabs.js`, and `chrome-lib.js` are original to this repo — no
-capability in the reference project covers coordinate-based interaction,
-persistent console/network capture, or multi-tab switching.
+The rest of `pw.mjs` is original to this repo.
